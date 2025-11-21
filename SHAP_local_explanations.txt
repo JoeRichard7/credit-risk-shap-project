@@ -1,0 +1,36 @@
+Local SHAP Explanations — Textual Transcriptions
+
+1. HIGH-RISK BORROWER – Local SHAP Explanation
+Model Decision Summary:
+The model predicted a high likelihood of default for this borrower. SHAP values show multiple features pushing risk upward.
+
+Key Feature Contributions:
+- High Current Debt Burden: Increases pressure on repayment capacity.
+- Low Monthly Income: Reduces financial buffer.
+- High Credit Utilization Ratio: Suggests dependency on credit.
+- Short Credit History Length: Increases uncertainty.
+Minor protective factors slightly reduce risk but not enough to counter the major risks.
+
+2. LOW-RISK BORROWER – Local SHAP Explanation
+Model Decision Summary:
+Prediction is well below baseline risk. SHAP values mainly pull downward.
+
+Key Feature Contributions:
+- High Monthly Income: Strong stabilizing factor.
+- Low Outstanding Debt: Reflects financial discipline.
+- Low Credit Utilization: Indicates healthy credit behavior.
+- Long Credit History: Demonstrates reliability.
+Minor upward forces exist but are negligible.
+
+3. BORDERLINE / AMBIGUOUS CASE – Local SHAP Explanation
+Model Decision Summary:
+Borrower is near threshold. SHAP shows mixed contributions.
+
+Key Feature Contributions:
+- Moderate Income: Slightly reduces risk.
+- Medium-High Debt Burden: Pushes risk upward.
+- Recent Delinquencies: Major risk driver.
+- Average Utilization: Neutral.
+- Recent Credit Inquiries: Slight risk increase.
+Some stabilizing factors help counterbalance these.
+
